@@ -11,9 +11,11 @@ h1{
     height:90px;    
 }
 nav{
-    position: absolute;
-    left: 900px;
-    height:0px;    
+    position: relative;
+    top:-10px;
+    right: 80px;
+    height:0px; 
+    text-align: right;   
 }
 nav a{
     text-decoration: none;
