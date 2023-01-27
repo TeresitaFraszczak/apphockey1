@@ -2,11 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:"Comic Sans", cursive;
 }
 h1{
     font-style: italic;
-    font-size: 50px;    
+    font-size: 60px;
+    background-color:rgba(80, 213, 218, 0.692);
+    height:90px;    
+}
+nav{
+    position: absolute;
+    left: 900px;
+    height:0px;    
 }
 nav a{
     text-decoration: none;
@@ -14,31 +21,56 @@ nav a{
     margin: 10px;
     background-color:rgb(36, 179, 245);
     color:white;
-    letter-spacing:2px; 
-    border:1.5px solid black; 
-    box-shadow:5px 5px 2px gray ;   
+    letter-spacing:1px; 
+    border:2px solid rgba(58, 55, 55, 0.63);
+    box-shadow: 5px 5px 2px gray ; 
+    position: relative;
+       
+}
+nav> a.active {
+    color:white;
+    background-color:rgb(25, 219, 25);
+  }
+
+div#imagenportada{
+    width: 100%;
+    height:300px;
+    background-position: 50% 30%;
+    background-size: cover;
+    background-image: url("./Imágenes/design1_image1.jpg");
+    }
+
+.logo{
+    width:50px;
+    height: 30px;
+    position: relative;
+    left:50px;
+    top:40px;
 }
 
-div #imagenportada{
-    width: auto;
-    background-image: url("./Imágenes/design1_image1.jpg");
+.container{
+    width: 80%;
+    position: absolute;
+    left: 250px;
+    top: 480px;
 }
 
 h2{
     text-align: center;
-    border: 1.5px solid black;
-    padding:10px;
-    background-color: gold;
+    font-size: 30px;
+    border: 2px solid rgba(58, 55, 55, 0.63);
+    padding:5px;
+    background-color: rgba(255, 217, 0, 0.644);
 }
 article{
     display: block;
     margin: 20px;
 }
-h3{
+article> h3{
     font-style: italic;
-    font-size: 30px;
+    font-size: 25px;
 }
-p{
+article> p{
     font-size: 20px;
 }
 
