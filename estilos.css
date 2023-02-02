@@ -119,6 +119,7 @@ th{
     border:1px solid Cornflowerblue;
     color: white;
     background: cornflowerblue;
+    text-align: center;
 }
 td{
    border:1px dotted Cornflowerblue;
