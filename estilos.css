@@ -56,11 +56,13 @@ div#imagenportada{
     position: absolute;
     left: 250px;
     top: 480px;
-}
+    text-align: justify;
+    font-size: 20px;
+    }
 
 h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     border: 2px solid rgba(58, 55, 55, 0.63);
     padding:5px;
     background-color: rgba(255, 217, 0, 0.644);
@@ -89,8 +91,10 @@ ul.inside{
     list-style-type: circle;
 }
 .allplay{
-    font-size: 20px; 
-      
+    font-size: 20px;       
+}
+li{
+    margin:20px;
 }
 .ordenada{
     list-style-type: lower-alpha;
@@ -101,12 +105,12 @@ ul.inside{
 }
 caption{
     font-size: 20px;
-    background-color:cornflowerblue;
+    margin: 10px;
+    text-align:start;
 }
 table{
-    border: 3px solid cornflowerblue;
-    margin-left: 130px;
-    padding: 20px;
+    border-radius: 3px;
+    margin-left: 80px;
 }
 th{
     font-size: 20px;
@@ -118,8 +122,9 @@ th{
 }
 td{
    border:1px dotted Cornflowerblue;
-   padding: 15px; 
+   padding: 10px 50px; 
    font-size: 20px;
+   text-align: center;
 }
 .informationtable{
     font-size: 20px;
