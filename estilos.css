@@ -6,7 +6,7 @@
 }
 h1{
     font-style: italic;
-    font-size: 60px;
+    font-size: 50px;
     background-color:rgba(80, 213, 218, 0.692);
     height:90px;    
 }
@@ -133,4 +133,20 @@ td{
 .contacttable{
     display: flex;
     justify-content: space-between;
+}
+.maps{
+    position:static;
+    top: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+iframe{
+    background-color:cornflowerblue;
+    padding: 30px;
+    align-items:center;
+}
+fieldset{
+    margin: 20px;
+    padding: 20px;
+    
 }
