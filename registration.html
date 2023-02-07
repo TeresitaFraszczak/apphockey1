@@ -30,69 +30,69 @@
                  <img src="./imagenes/LogoMightyDucks-01.png" alt="Logo" width="160">
              </div>
              <div class="container">
-                 <form action="" method="get"></form>
+                 <form action="./showdata.html" method="get">
                  <fieldset>
                     <label>
                         <span>Player´s First Name:</span>
-                        <input type="text" name="name">
+                        <input type="text" name="name" required>
                     </label>
                     <label>
                         <span>Last Name:</span>
-                        <input type="text" name="last name">
-                    </label>
-                    <label><br>
+                        <input type="text" name="last name" required>
+                    </label><br>
+                    <label>
                         <span>Street Address:</span>
                         <input type="text" name="street address">
-                    </label>
-                    <label><br>
+                    </label><br>
+                    
+                    <label>
                         <span>City:</span>
                         <input type="text" name="city">
                     </label>
                     <label>
                         <span>Zip Code:</span>
-                        <input type="number" name="zip code">
-                    </label>
-                    <label><br>
+                        <input type="number" name="zip code" required>
+                    </label><br>
+                    
+                    <label>
                         <span>Birth Date:</span>
                         <input type="date" name="birth date">
                     </label>
+                    <div class="enlinea">
+                    <Span>Gender:</Span>
                     <label>
-                        <Span>Gender:</Span>
-                        <input type="radio" name="gender" value="female">
-                        Female
+                        <input type="radio" name="gender" value="female">Female
                     </label>
                     <label>
-                        <input type="radio" name="gender" value="male">
-                        Male 
-                    </label><br>
-                    <label>
-                        <Span><srtong>Grade:</srtong></Span>
-                         <input type="radio" name="grade" value="pre school">
-                         Pre School
+                        <input type="radio" name="gender" value="male">Male 
                     </label>
-                         <input type="radio" name="grade" value="first grade">
-                         1st
+                    </div>
+                    <div class="enlinea">
+                    <Span>Grade:</Span>
+                    <label>
+                        <input type="radio" name="grade" value="pre school">Pre School
                     </label>
                     <label>
-                         <input type="radio" name="grade" value="second grade">
-                         2st
+                         <input type="radio" name="grade" value="first grade">1st
                     </label>
                     <label>
-                         <input type="radio" name="grade" value="third grade">
-                         3st
+                         <input type="radio" name="grade" value="second grade">2st
                     </label>
                     <label>
-                         <input type="radio" name="grade" value="fourth grade">
-                         4st
+                         <input type="radio" name="grade" value="third grade">3st
                     </label>
                     <label>
-                         <input type="radio" name="grade" value="fifth grade">
-                         5st
+                         <input type="radio" name="grade" value="fourth grade">4st
                     </label>
+                    <label>
+                         <input type="radio" name="grade" value="fifth grade">5st
+                    </label>
+                    </div>
                  </fieldset>
                  <fieldset>
-                    <p><strong>Closest School:</strong> </p>
                     <legend><strong>Which elementary school do you live near?</strong></legend>
+                    <p><strong>Closest School:</strong></p>
+                    <div class="doscolumnas">
                     <label>
                         <input type="checkbox" name="school" value="aj katzenmaier">
                        AJ Katzenmaier
@@ -117,9 +117,11 @@
                         <input type="checkbox" name="school" value="south elementary">
                        South Elementary
                     </label>
+                    </div>
                  </fieldset>
                  <fieldset>
                     <legend><strong>What position(s) do you normally play? (ckeck all that apply)</strong></legend>
+                    <div class="doscolumnas">
                     <label>
                         <input type="checkbox" name="position" value="forward">
                        Forward
@@ -136,42 +138,49 @@
                         <input type="checkbox" name="position" value="goalkeeper">
                        Goalkeeper
                     </label>
+                    </div>
                  </fieldset>
                  <fieldset>
                     <Span><strong>Uniform Size:</strong></Span>
-                    <input type="radio" name="size" value="youth Small">Youth Small
-                     </label>
-                          <input type="radio" name="size" value="youth medium">Youth Medium
+                    <div class="doscolumnas">
+                     <label>
+                         <input type="radio" name="size" value="youth small">Youth Small
                      </label>
                      <label>
-                          <input type="radio" name="size" value="youth large">Youth Large
-                     </label>
-                      <label>
-                          <input type="radio" name="size" value="small">Small
+                         <input type="radio" name="size" value="youth medium">Youth Medium
                      </label>
                      <label>
-                           <input type="radio" name="size" value="medium">Medium
+                         <input type="radio" name="size" value="youth large">Youth Large
+                     </label>
+                     <label>
+                         <input type="radio" name="size" value="small">Small
+                     </label>
+                     <label>
+                         <input type="radio" name="size" value="medium">Medium
                     </label>
                      <label>
                          <input type="radio" name="size" value="large">Large
                      </label>
                      <label>
-                        <input type="radio" name="size" value="extra large">Extra Large
+                         <input type="radio" name="size" value="extra large">Extra Large
                      </label>
+                    </div>
                  </fieldset>
                  <fieldset>
                     <h3>Permission to Play</h3>
                     <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation 
                     By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                    <span>Parent/Guardian Signature:</span>
                     <label>
-                        <span>Parent/Guardian Signature:</span>
-                        <input type="text" name="name parent">
+                        <input type="text" name="name parent" required>
+                    </label><br>
+                    <span>Date:</span>
+                    <label>
+                        <input type="date" name="date" required>
                     </label>
-                    <label><br>
-                        <span>Date:</span>
-                        <input type="text" name="date">
-                    </label>
-                 </fieldset>
+                </fieldset>
+                <input type="submit" name="send" value="Send Registration">
+                </form>
              </div>          
                    
         </section>

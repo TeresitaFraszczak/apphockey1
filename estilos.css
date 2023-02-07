@@ -58,7 +58,7 @@ div#imagenportada{
     top: 480px;
     text-align: justify;
     font-size: 20px;
-    }
+}
 
 h2{
     text-align: center;
@@ -135,18 +135,60 @@ td{
     justify-content: space-between;
 }
 .maps{
-    position:static;
     top: 50px;
     display: flex; 
     flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-around;
+     
 }
 iframe{
     background-color:cornflowerblue;
-    padding: 30px;
-    align-items:center;
-}
-fieldset{
-    margin: 20px;
     padding: 20px;
-    
+    align-items:center;
+    margin-bottom: 20px;
 }
+form{
+	background-color:rgba(189, 179, 179, 0.993);
+}
+
+fieldset{
+    padding: 30px;
+    border: none;
+}
+form input{    
+	padding:3px 60px;
+	border:1px solid #f6f6f6;
+	border-radius:10px;
+	background-color:#f6f6f6;
+	margin:10px;
+}
+
+.enlinea{
+    display:flex;  
+}
+.doscolumnas{
+    display:flex;
+    flex-wrap: wrap;
+}
+.doscolumnas >label{
+    flex-basis: 50%;
+}
+ 
+form input[type="submit"]:hover{
+	cursor:pointer;
+    background: rgba(12, 12, 73, 0.863);
+}
+form input[type="submit"]{
+    position:relative;
+    left:700px;
+    font-size: 20px;
+	width:30%;
+	padding:8px 16px;
+	margin-top:32px;
+    border:1px solid cornflowerblue;
+	border-radius:5px;
+	display:block;
+	color:white;
+	background-color:cornflowerblue;
+} 
